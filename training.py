@@ -247,8 +247,6 @@ class TestLanguageModel:
         
     def generation(inp, forward, model):
         """
-            TODO: write generation code here
-
             Generate a sequence of words given a starting sequence.
             :param inp: Initial sequence of words (batch size, length)
             :param forward: number of additional words to generate
